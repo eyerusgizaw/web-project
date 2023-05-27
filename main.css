@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: white;
+}.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}.nav-link:hover{
+    color: white;
+    background-color: black;
+}.navbar-brand{ 
+    font-size: 1.3rem; 
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}.main{
+    background: url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    
+}.main h3{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}.main h5{
+    font-size: 3rem;
+    color: white;
+}.about h1{
+    font-size: 2rem; 
+    font-weight: 800;
+    color: black;
+}.about p{
+    font-size: 1.3rem; 
+    font-weight: 600;
+    color: black;
+}.progress{
+    background-color: rgb(180, 178, 178);
+    justify-content: flex-start;
+    border-radius: 60px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width:  100%;
+
+}.progresses{
+    animation: load1 4s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}.progress p{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}@keyframes load1{
+    0%{
+        width: 0;
+    }100%{
+        width: 100%;
+    }
+}.progresses1{
+    animation: load2 4s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 30px;
+    width: 0;}
+    .progresses2{
+        animation: load3 4s normal forwards ;
+        border-radius: 50px;
+        background-color: black;
+        height: 25px;
+        width: 0;
+    }
+    .progresses3{
+        animation: load4 4s normal forwards ;
+        border-radius: 50px;
+        background-color:black;
+        height: 25px;
+        width: 0;}
+    @keyframes load2{
+        0%{
+            width: 0;
+        }100%{
+            width: 90%;
+        }}
+        
+        @keyframes load3{
+            0%{
+                width: 0;
+            }100%{
+                width: 80%;
+            }}
+            @keyframes load4{
+                0%{
+                    width: 0;
+                }100%{
+                    width:80%;
+                }}
+                .card{
+                    border: none;
+                    outline: none;
+                   
+                }.card p{
+                    color: rgb(6, 5, 5);
+                }.circle{
+                    height: 40px;
+                    width: 40px;
+                    background-color:rgb(19, 17, 17);
+                    color: black;
+                    padding: 12px;
+                    display: inline-block;
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                    border-radius:50%;
+                }.control ul li{
+                    background-color: black;
+                    list-style:none;
+                    padding: 5px 15px;
+                    color: white;
+                    display: inline-block;
+                    cursor: pointer;
+                    letter-spacing: 2px;
+                }.projects{
+                    position: relative;
+                }.projects span{
+                    position: absolute;
+                    top: 40%;
+                    left: 45%;
+                    font-size: 40px;
+                    color: black;
+                    cursor: pointer;
+        
+                }.btnn {
+                    border: none;
+                    color: aquamarine;
+                    background-color:black ;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: 120px;
+                }
+                .footer{
+                    padding-left: 300px;
+                }
